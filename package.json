@@ -4,6 +4,7 @@
     "description": "A mix between One Dark Pro UI and JetBrains Darcula syntax highlighting.",
     "version": "1.0.0",
     "publisher": "Metainy",
+    "license": "MIT",
     "author": {
         "name": "Mahmoud El Metainy"
     },
