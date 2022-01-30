@@ -1,0 +1,54 @@
+{
+    "name": "one-darcula",
+    "displayName": "One Darcula",
+    "description": "A mix between One Dark Pro UI and JetBrains Darcula syntax highlighting.",
+    "version": "1.0.0",
+    "publisher": "Metainy",
+    "author": {
+        "name": "Mahmoud El Metainy"
+    },
+    "homepage": "https://github.com/Metainy/one-darcula-vscode-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Metainy/one-darcula-vscode-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/Metainy/one-darcula-vscode-theme/issues"
+    },
+    "scripts": {
+        "bundle": "vsce package",
+        "publish": "vsce publish"
+    },
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#2b2b2b",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes",
+        "Intellij",
+        "JetBrains",
+        "Idea",
+        "Darcula",
+        "PhpStorm"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "One Darcula - Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/one-darcula-dark.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^1.81.1"
+    }
+}

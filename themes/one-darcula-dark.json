@@ -1,0 +1,1548 @@
+{
+	// Meta
+	"name": "One Darcula - Dark",
+	"type": "dark",
+	"semanticHighlighting": true,
+	// UI Colors
+	"colors": {
+		// Base Colors
+		"focusBorder": "#3e4452",
+		"descriptionForeground": "#abb2bf",
+		// Window Border
+		// Text Colors
+		"textBlockQuote.background": "#2e3440",
+		"textBlockQuote.border": "#4b5362",
+		"textLink.foreground": "#61afef",
+		"textPreformat.foreground": "#d19a66",
+		// Action Colors
+		// Button Control
+		"button.background": "#404754",
+		"button.secondaryForeground": "#c0bdbd",
+		"button.secondaryBackground": "#30333d",
+		"checkbox.border": "#404754",
+		// Dropdown Control
+		"dropdown.background": "#1e2227",
+		"dropdown.border": "#1e2227",
+		// Input Control
+		"input.background": "#1d1f23",
+		// Scrollbar Control
+		"scrollbar.shadow": "#23252c",
+		"scrollbarSlider.activeBackground": "#747d9180",
+		"scrollbarSlider.background": "#4e566660",
+		"scrollbarSlider.hoverBackground": "#5a637580",
+		// Badge
+		"badge.background": "#23272e",
+		// Progress bar
+		// Lists and Trees
+		"list.activeSelectionBackground": "#2c313a",
+		"list.activeSelectionForeground": "#d7dae0",
+		"list.focusBackground": "#323842",
+		"list.focusForeground": "#f0f0f0",
+		"list.highlightForeground": "#c5c5c5",
+		"list.hoverBackground": "#2c313a",
+		"list.hoverForeground": "#fff",
+		"list.inactiveSelectionBackground": "#323842",
+		"list.inactiveSelectionForeground": "#d7dae0",
+		"list.warningForeground": "#d19a66",
+		// Activity Bar
+		"activityBar.background": "#23272e",
+		"activityBar.foreground": "#d7dae0",
+		"activityBarBadge.background": "#4d78cc",
+		"activityBarBadge.foreground": "#f8fafd",
+		// Side Bar
+		"sideBar.background": "#1e2227",
+		"sideBar.foreground": "#abb2bf",
+		"sideBarSectionHeader.background": "#23272e",
+		"sideBarSectionHeader.foreground": "#abb2bf",
+		// Minimap
+		"minimapGutter.addedBackground": "#109868",
+		"minimapGutter.deletedBackground": "#9A353D",
+		"minimapGutter.modifiedBackground": "#948B60",
+		// Editor Groups & Tabs
+		"editorGroup.border": "#181a1f",
+		"editorGroupHeader.tabsBackground": "#1e2227",
+		"tab.activeBackground": "#23272e",
+		"tab.activeForeground": "#dcdcdc",
+		"tab.border": "#181a1f",
+		"tab.inactiveBackground": "#1e2227",
+		"tab.hoverBackground": "#323842",
+		"tab.unfocusedHoverBackground": "#323842",
+		// Editor Colors
+		"editor.background": "#23272e",
+		"editor.foreground": "#abb2bf",
+		"editorLineNumber.foreground": "#495162",
+		"editorLineNumber.activeForeground": "#abb2bf",
+		"editorCursor.background": "#ffffffc9",
+		"editorCursor.foreground": "#528bff",
+		"editor.selectionBackground": "#67769660",
+		"editor.selectionHighlightBackground": "#ffffff10",
+		"editor.selectionHighlightBorder": "#dddddd",
+		"editor.wordHighlightBackground": "#d2e0ff2f",
+		"editor.wordHighlightBorder": "#7f848e",
+		"editor.wordHighlightStrongBackground": "#abb2bf26",
+		"editor.wordHighlightStrongBorder": "#7f848e",
+		"editor.findMatchBackground": "#42557b",
+		"editor.findMatchHighlightBackground": "#6199ff2f",
+		"editor.findMatchBorder": "#457dff",
+		"editor.lineHighlightBackground": "#2c313c",
+		"editorWhitespace.foreground": "#3b4048",
+		"editorIndentGuide.background": "#3b4048",
+		"editorIndentGuide.activeBackground": "#c8c8c859",
+		"editorInlayHint.background": "#2c313c",
+		"editorInlayHint.foreground": "#abb2bf",
+		"editorRuler.foreground": "#abb2bf26",
+		"editorBracketMatch.background": "#515a6b",
+		"editorBracketMatch.border": "#515a6b",
+		"editorError.foreground": "#c24038",
+		"editorWarning.foreground": "#d19a66",
+		"editorGutter.modifiedBackground": "#948B60",
+		"editorGutter.addedBackground": "#109868",
+		"editorGutter.deletedBackground": "#9A353D",
+		// Diff Editor Colors
+		"diffEditor.insertedTextBackground": "#00809b33",
+		// Editor Widget Colors
+		"editorWidget.background": "#1e2227",
+		"editorSuggestWidget.background": "#1e2227",
+		"editorSuggestWidget.border": "#181a1f",
+		"editorSuggestWidget.selectedBackground": "#2c313a",
+		"editorHoverWidget.background": "#1e2227",
+		"editorHoverWidget.border": "#181a1f",
+		"editorHoverWidget.highlightForeground": "#61afef",
+		"editorMarkerNavigation.background": "#1e2227",
+		// Peek View Colors
+		"peekViewEditor.background": "#1b1d23",
+		"peekViewEditor.matchHighlightBackground": "#29244b",
+		"peekViewResult.background": "#22262b",
+		// Merge Conflicts Colors
+		// Panel Colors
+		"panel.border": "#3e4452",
+		"panelSectionHeader.background": "#1e2227",
+		// Status Bar Colors
+		"statusBar.background": "#1e2227",
+		"statusBar.foreground": "#9da5b4",
+		"statusBar.debuggingBackground": "#cc6633",
+		"statusBar.debuggingForeground": "#ffffff",
+		"statusBar.debuggingBorder": "#66017a",
+		"statusBar.noFolderBackground": "#1e2227",
+		"statusBarItem.hoverBackground": "#2c313a",
+		"statusBarItem.remoteBackground": "#4d78cc",
+		"statusBarItem.remoteForeground": "#f8fafd",
+		// Title Bar Colors
+		"titleBar.activeBackground": "#23272e",
+		"titleBar.activeForeground": "#9da5b4",
+		"titleBar.inactiveBackground": "#1e2227",
+		"titleBar.inactiveForeground": "#6b717d",
+		// Menu Bar Colors
+		"menu.foreground": "#abb2bf",
+		"menu.separatorBackground": "#343a45",
+		// Notification Colors
+		// Banner Colors
+		// Extensions Colors
+		// Quick Picker Colors
+		// Keybinding Label Colors
+		// Keyboard Shortcut Table Colors
+		// Integrated Terminal Colors
+		"terminal.background": "#23272e",
+		"terminal.border": "#3e4452",
+		"terminal.foreground": "#abb2bf",
+		"terminal.ansiBlack": "#3f4451",
+		"terminal.ansiBlue": "#4aa5f0",
+		"terminal.ansiBrightBlack": "#4f5666",
+		"terminal.ansiBrightBlue": "#4dc4ff",
+		"terminal.ansiBrightCyan": "#4cd1e0",
+		"terminal.ansiBrightGreen": "#a5e075",
+		"terminal.ansiBrightMagenta": "#de73ff",
+		"terminal.ansiBrightRed": "#ff616e",
+		"terminal.ansiBrightWhite": "#d7dae0",
+		"terminal.ansiBrightYellow": "#f0a45d",
+		"terminal.ansiCyan": "#42b3c2",
+		"terminal.ansiGreen": "#8cc265",
+		"terminal.ansiMagenta": "#c162de",
+		"terminal.ansiRed": "#e05561",
+		"terminal.ansiWhite": "#e6e6e6",
+		"terminal.ansiYellow": "#d18f52",
+		"terminal.selectionBackground": "#abb2bf30",
+		// Debug Colors
+		"debugToolBar.background": "#1e2227",
+		// Testing Colors
+		// Welcome Page Colors
+		"walkThrough.embeddedEditorBackground": "#2e3440",
+		// Source Control Colors
+		// Git Colors
+		"gitDecoration.addedResourceForeground": "#629755",
+		"gitDecoration.modifiedResourceForeground": "#6897bb",
+		"gitDecoration.deletedResourceForeground": "#6c6c6c",
+		"gitDecoration.renamedResourceForeground": "#3a8484",
+		"gitDecoration.stageModifiedResourceForeground": "#6897bb",
+		"gitDecoration.stageDeletedResourceForeground": "#6c6c6c",
+		"gitDecoration.untrackedResourceForeground": "#d1675a",
+		"gitDecoration.ignoredResourceForeground": "#848504",
+		"gitDecoration.conflictingResourceForeground": "#d5756c",
+		"gitDecoration.submoduleResourceForeground": "#9876aa",
+		// Settings Editor Colors
+		"settings.headerForeground": "#fff",
+		"settings.focusedRowBackground": "#23272e",
+		// Breadcrumbs Colors
+		// Snippets Colors
+		// Symbol Icons Colors
+		// Debug Icons Colors
+		// Notebook Colors
+		// Chart Colors
+		// Ports Colors
+	},
+	// Semantic Highlight
+	"semanticTokenColors": {
+		// JavaScript
+		"class:javascript": "#a9b7c6",
+		"class.defaultLibrary:javascript": {
+			"foreground": "#9876aa",
+			"fontStyle": "bold italic"
+		},
+		"enum:javascript": "#a9b7c6",
+		"enumMember:javascript": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"function:javascript": "#ffc66d",
+		"function.defaultLibrary:javascript": "#ffc66d",
+		"interface:javascript": "#a9b7c6",
+		"method:javascript": "#ffc66d",
+		"method.static:javascript": {
+			"foreground": "#ffc66d",
+			"fontStyle": "italic"
+		},
+		"namespace:javascript": "#a9b7c6",
+		"parameter:javascript": {
+			"foreground": "#a9b7c6",
+			"fontStyle": ""
+		},
+		"property:javascript": "#9876aa",
+		"property.static:javascript": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"type:javascript": "#a9b7c6",
+		"typeParameter:javascript": "#20999d",
+		// "variable:javascript": "#9876aa",
+		"variable.declaration:javascript": {
+			"foreground": "#a9b7c6",
+			"fontStyle": ""
+		},
+		"variable.local:javascript": {
+			"foreground": "#a9b7c6",
+			"fontStyle": ""
+		},
+		"variable.defaultLibrary:javascript": {
+			"foreground": "#9876aa",
+			"fontStyle": "bold italic"
+		},
+		// TypeScript
+		"class:typescript": "#a9b7c6",
+		"class.defaultLibrary:typescript": {
+			"foreground": "#9876aa",
+			"fontStyle": "bold italic"
+		},
+		"enum:typescript": "#a9b7c6",
+		"enumMember:typescript": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"function:typescript": "#ffc66d",
+		"function.defaultLibrary:typescript": "#ffc66d",
+		"interface:typescript": "#a9b7c6",
+		"method:typescript": "#ffc66d",
+		"method.static:typescript": {
+			"foreground": "#ffc66d",
+			"fontStyle": "italic"
+		},
+		"namespace:typescript": "#a9b7c6",
+		"parameter:typescript": "#a9b7c6",
+		"property:typescript": "#9876aa",
+		"property.static:typescript": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"type:typescript": "#a9b7c6",
+		"typeParameter:typescript": "#20999d",
+		"variable:typescript": "#9876aa",
+		"variable.declaration:typescript": {
+			"foreground": "#9876aa",
+			"fontStyle": "bold italic"
+		},
+		"variable.local:typescript": {
+			"foreground": "#a9b7c6",
+			"fontStyle": ""
+		},
+		"variable.defaultLibrary:typescript": {
+			"foreground": "#9876aa",
+			"fontStyle": "bold italic"
+		},
+		// Vue
+		"class:vue": "#a9b7c6",
+		"class.defaultLibrary:vue": {
+			"foreground": "#9876aa",
+			"fontStyle": "bold italic"
+		},
+		"enum:vue": "#a9b7c6",
+		"enumMember:vue": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"function:vue": "#ffc66d",
+		"function.defaultLibrary:vue": "#ffc66d",
+		"interface:vue": "#a9b7c6",
+		"method:vue": "#ffc66d",
+		"method.static:vue": {
+			"foreground": "#ffc66d",
+			"fontStyle": "italic"
+		},
+		"namespace:vue": "#a9b7c6",
+		"parameter:vue": "#a9b7c6",
+		"property:vue": "#9876aa",
+		"property.static:vue": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"type:vue": "#a9b7c6",
+		"typeParameter:vue": "#20999d",
+		"variable:vue": "#9876aa",
+		"variable.declaration:vue": {
+			"foreground": "#9876aa",
+			"fontStyle": "bold italic"
+		},
+		"variable.local:vue": {
+			"foreground": "#a9b7c6",
+			"fontStyle": ""
+		},
+		"variable.defaultLibrary:vue": {
+			"foreground": "#9876aa",
+			"fontStyle": "bold italic"
+		},
+		// C#
+		"class:csharp": {
+			"foreground": "#a9b7c6",
+			"fontStyle": ""
+		},
+		"delegate:csharp": "#a9b7c6",
+		"enum:charp": "#a9b7c6",
+		"enumMember:csharp": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"excludedCode:csharp": "#72737a",
+		"extensionMethod:csharp": {
+			"foreground": "#ffc66d",
+			"fontStyle": "italic"
+		},
+		"field:csharp": "#9876aa",
+		"field.static:csharp": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"interface:charp": "#a9b7c6",
+		"label:csharp": "#a9b7c6",
+		"local:csharp": "#a9b7c6",
+		"method:charp": "#ffc66d",
+		"method.static:csharp": {
+			"foreground": "#ffc66d",
+			"fontStyle": "italic"
+		},
+		"namespace:csharp": "#a9b7c6",
+		"number:csharp": "#6897bb",
+		"operatorOverloaded:csharp": "#ffc66d",
+		"parameter:csharp": "#a9b7c6",
+		"property:csharp": "#9876aa",
+		"property.static:csharp": "#9876aa",
+		"stringVerbatim:csharp": "#6a8759",
+		"stringEscapeCharacter:csharp": "#cc7832",
+		"typeParameter:csharp": "#20999d",
+		"variable:csharp": "#9876aa",
+		"variable.readonly:csharp": {
+			"foreground": "#9876aa",
+			"fontStyle": "italic"
+		},
+		"xmlDocCommentAttributeName:csharp": {
+			"foreground": "#629755",
+			"fontStyle": "italic underline"
+		},
+		"xmlDocCommentAttributeQuotes:csharp": "#8a653b",
+		"xmlDocCommentAttributeValue:csharp": "#8a653b",
+		"xmlDocCommentCDataSection:csharp": "#629755",
+		"xmlDocCommentComment:csharp": "#808080",
+		"xmlDocCommentDelimiter:csharp": {
+			"foreground": "#629755"
+		},
+		"xmlDocCommentEntityReference:csharp": "#629755",
+		"xmlDocCommentName:csharp": {
+			"foreground": "#77b767"
+		},
+		"xmlDocCommentProcessingInstruction:csharp": "#808080",
+		"xmlDocCommentText:csharp": "#629755",
+		// ASP.NET Razor
+		"razorComment": "#808080",
+		"razorCommentStar": "#808080",
+		"razorCommentTransition": "#808080",
+		"razorDirective": "#cc7832",
+		"razorDirectiveAttribute": "#bababa",
+		"razorDirectiveColon": "#bababa",
+		"razorTagHelperAttribute": "#cc7832",
+		"razorTagHelperElement": "#cc7832",
+		"razorTransition": "#e8bf6a",
+		"markupAttribute": "#bababa",
+		"markupComment": "#ff0000", // to do
+		"markupCommentPunctuation": "#ff0000", // to do
+		"markupElement": "#e8bf6a",
+		"markupOperator": "#a5c261",
+		"markupTagDelimiter": "#e8bf6a"
+	},
+	// Syntax Highlight
+	"tokenColors": [
+		{
+			// Styles that I couldn't find how to display them
+			// I keep them in red so that one can spot them in the future
+			// source.* is also included here to spot other uncovered scopes
+			"name": "Unknown",
+			"scope": [
+				// General
+				"markup.changed",
+				// CSS
+				"constant.numeric.other.density.css",
+				"punctuation.definition.entity.css",
+				"variable.font-feature.css",
+				// JavaScript & TypeScript
+				"support.constant.js",
+				"support.constant.ts",
+				// YAML
+				"punctuation.definition.key-value.begin.yaml"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Underline",
+			"scope": [
+				"markup.underline"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "#BBBBBB",
+			"scope": [
+				"markup.inserted",
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#bbbbbb",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#BC3F3C",
+			"scope": [
+				// HTML
+				"invalid.deprecated.entity.other.attribute-name.html",
+				"invalid.deprecated.html",
+				"invalid.illegal.no-longer-supported.html",
+				// JSON
+				"invalid.illegal.expected-array-separator.json",
+				"invalid.illegal.expected-dictionary-separator.json",
+				"invalid.illegal.unrecognized-string-escape.json",
+				// XML
+				"invalid.illegal.bad-ampersand.xml",
+				// YAML
+				"invalid.illegal.character.anchor.yaml",
+				"invalid.illegal.expected-comment-or-newline.yaml",
+				"invalid.illegal.expected-newline.yaml",
+				"invalid.illegal.tag-handle.yaml",
+				"invalid.illegal.unrecognized.yaml"
+			],
+			"settings": {
+				"foreground": "#bc3f3c",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#BABABA",
+			"scope": [
+				// CSS
+				"meta.at-rule.media.header.css",
+				"support.type.property-name.css",
+				"support.type.property-name.media.css",
+				"support.type.vendored.property-name.css",
+				"support.type.vendored.property-name.media.css",
+				"variable.css",
+				// HTML
+				"entity.other.attribute-name.html",
+				// JavaScript & TypeScript
+				"meta.tag.attributes.js punctuation.separator.namespace.js", // JSX
+				"entity.other.attribute-name.js", // JSX
+				// XML
+				"entity.name.tag.xml",
+				"entity.other.attribute-name.xml",
+				"entity.other.attribute-name.localname.xml",
+				"punctuation.separator.namespace.xml",
+				"variable.language.documentroot.xml" // index in <!DOCTYPE index>
+			],
+			"settings": {
+				"foreground": "#bababa",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#808080",
+			"scope": [
+				// CSS
+				"comment.block.css",
+				"punctuation.definition.comment.begin.css",
+				"punctuation.definition.comment.end.css",
+				// C#
+				"comment.block.cs",
+				"comment.line.double-slash.cs",
+				// HTML
+				"comment.block.html",
+				"punctuation.definition.comment.html",
+				// JavaScript & TypeScript
+				"comment.block.js",
+				"comment.block.ts",
+				"comment.line.double-slash.js",
+				"comment.line.double-slash.ts",
+				"comment.line.shebang.js",
+				"comment.line.shebang.ts",
+				"comment.line.triple-slash.directive.js",
+				"comment.line.triple-slash.directive.ts",
+				"comment.line.triple-slash.directive.js keyword.operator.assignment.js",
+				"comment.line.triple-slash.directive.ts keyword.operator.assignment.ts",
+				"comment.line.triple-slash.directive.js punctuation.definition.string.begin.js",
+				"comment.line.triple-slash.directive.ts punctuation.definition.string.begin.ts",
+				"comment.line.triple-slash.directive.js punctuation.definition.string.end.js",
+				"comment.line.triple-slash.directive.ts punctuation.definition.string.end.ts",
+				"comment.line.triple-slash.directive.js string.quoted.double.js",
+				"comment.line.triple-slash.directive.ts string.quoted.double.ts",
+				"entity.name.tag.directive.js",
+				"entity.name.tag.directive.ts",
+				"entity.other.attribute-name.directive.js",
+				"entity.other.attribute-name.directive.ts",
+				"punctuation.decorator.internaldeclaration.js",
+				"punctuation.decorator.internaldeclaration.ts",
+				"punctuation.definition.tag.directive.js",
+				"punctuation.definition.tag.directive.ts",
+				"storage.type.internaldeclaration.js",
+				"storage.type.internaldeclaration.ts",
+				// JSON
+				"comment.block.json",
+				"comment.block.documentation.json",
+				"punctuation.definition.comment.json",
+				// Markup
+				"markup.inline.raw",
+				// XML
+				"comment.block.xml",
+				"punctuation.definition.comment.xml"
+			],
+			"settings": {
+				"foreground": "#808080",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#A9B7C6",
+			"scope": [
+				// CSS
+				"entity.other.attribute-name.class.css punctuation.definition.entity.css",
+				"entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+				"entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+				"keyword.operator.arithmetic.css",
+				"keyword.operator.combinator.css",
+				"keyword.operator.comparison.css",
+				"keyword.operator.gradient.css",
+				"keyword.operator.pattern.css",
+				"keyword.operator.shape.css",
+				"keyword.other.unit.percentage.css",
+				"punctuation.definition.entity.begin.bracket.square.css",
+				"punctuation.definition.entity.end.bracket.square.css",
+				"punctuation.definition.condition.begin.bracket.round.css",
+				"punctuation.definition.condition.end.bracket.round.css",
+				"punctuation.definition.parameters.begin.bracket.round.css",
+				"punctuation.definition.parameters.end.bracket.round.css",
+				"punctuation.section.begin.bracket.curly.css",
+				"punctuation.section.document.begin.bracket.curly.css",
+				"punctuation.section.document.end.bracket.curly.css",
+				"punctuation.section.end.bracket.curly.css",
+				"punctuation.section.function.begin.bracket.round.css",
+				"punctuation.section.function.end.bracket.round.css",
+				"punctuation.section.keyframes.begin.bracket.curly.css",
+				"punctuation.section.keyframes.end.bracket.curly.css",
+				"punctuation.section.media.begin.bracket.curly.css",
+				"punctuation.section.media.end.bracket.curly.css",
+				"punctuation.section.supports.begin.bracket.curly.css",
+				"punctuation.section.supports.end.bracket.curly.css",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.section.property-list.end.bracket.curly.css",
+				"punctuation.separator.css",
+				"punctuation.separator.key-value.css",
+				// C#
+				"entity.name.type.alias.cs",
+				"entity.name.type.delegate.cs",
+				"entity.name.type.enum.cs",
+				"entity.name.type.interface.cs",
+				"entity.name.type.namespace.cs",
+				"entity.name.type.struct.cs",
+				"entity.name.variable.preprocessor.symbol.cs",
+				"entity.name.label.cs",
+				"entity.name.variable.local.cs",
+				"entity.name.variable.parameter.cs",
+				"entity.name.variable.range-variable.cs",
+				"entity.name.variable.range-variable.cs",
+				"entity.name.type.class.cs",
+				"keyword.operator.arithmetic.cs",
+				"keyword.operator.arrow.cs",
+				"keyword.operator.assignment.compound.bitwise.cs",
+				"keyword.operator.assignment.compound.cs",
+				"keyword.operator.assignment.cs",
+				"keyword.operator.bitwise.cs",
+				"keyword.operator.bitwise.shift.cs",
+				"keyword.operator.comparison.cs",
+				"keyword.operator.conditional.colon.cs",
+				"keyword.operator.conditional.question-mark.cs",
+				"keyword.operator.decrement.cs",
+				"keyword.operator.increment.cs",
+				"keyword.operator.logical.cs",
+				"keyword.operator.null-coalescing.cs",
+				"keyword.operator.null-conditional.cs",
+				"keyword.operator.relational.cs",
+				"keyword.preprocessor.checksum.cs",
+				"keyword.preprocessor.default.cs",
+				"keyword.preprocessor.disable.cs",
+				"keyword.preprocessor.hidden.cs",
+				"keyword.preprocessor.load.cs",
+				"keyword.preprocessor.r.cs",
+				"keyword.preprocessor.restore.cs",
+				"punctuation.accessor.cs",
+				"punctuation.curlybrace.close.cs",
+				"punctuation.curlybrace.open.cs",
+				"punctuation.parenthesis.close.cs",
+				"punctuation.parenthesis.open.cs",
+				"punctuation.separator.question-mark.cs",
+				"punctuation.separator.question-mark.cs",
+				"punctuation.squarebracket.close.cs",
+				"punctuation.squarebracket.open.cs",
+				"punctuation.separator.colon.cs",
+				"punctuation.separator.coloncolon.cs",
+				"punctuation.separator.dot.cs",
+				"punctuation.tilde.cs",
+				"string.unquoted.preprocessor.message.cs",
+				"variable.other.object.cs",
+				"entity.name.type.type-parameter.cs",
+				"punctuation.definition.typeparameters.begin.cs",
+				"punctuation.definition.typeparameters.end.cs",
+				"storage.type.cs",
+				// HTML
+				"text.html.derivative",
+				// JavaScript & TypeScript
+				"constant.language.import-export-all.js",
+				"constant.language.import-export-all.ts",
+				"entity.name.type.js",
+				"entity.name.type.ts",
+				"entity.name.type.alias.js",
+				"entity.name.type.alias.ts",
+				"entity.name.type.class.js",
+				"entity.name.type.class.ts",
+				"entity.name.type.enum.js",
+				"entity.name.type.enum.ts",
+				"entity.name.type.interface.js",
+				"entity.name.type.interface.ts",
+				"entity.name.type.module.js",
+				"entity.name.type.module.ts",
+				"entity.other.inherited-class.js",
+				"entity.other.inherited-class.ts",
+				"keyword.generator.asterisk.js",
+				"keyword.generator.asterisk.ts",
+				"keyword.operator.arithmetic.js",
+				"keyword.operator.arithmetic.ts",
+				"keyword.operator.assignment.js",
+				"keyword.operator.assignment.ts",
+				"keyword.operator.assignment.compound.js",
+				"keyword.operator.assignment.compound.ts",
+				"keyword.operator.assignment.compound.bitwise.js",
+				"keyword.operator.assignment.compound.bitwise.ts",
+				"keyword.operator.bitwise.js",
+				"keyword.operator.bitwise.ts",
+				"keyword.operator.bitwise.shift.js",
+				"keyword.operator.bitwise.shift.ts",
+				"keyword.operator.comparison.js",
+				"keyword.operator.comparison.ts",
+				"keyword.operator.decrement.js",
+				"keyword.operator.decrement.ts",
+				"keyword.operator.definiteassignment.js",
+				"keyword.operator.definiteassignment.ts",
+				"keyword.operator.increment.js",
+				"keyword.operator.increment.ts",
+				"keyword.operator.logical.js",
+				"keyword.operator.logical.ts",
+				"keyword.operator.optional.js",
+				"keyword.operator.optional.ts",
+				"keyword.operator.relational.js",
+				"keyword.operator.relational.ts",
+				"keyword.operator.rest.js",
+				"keyword.operator.rest.ts",
+				"keyword.operator.spread.js",
+				"keyword.operator.spread.ts",
+				"keyword.operator.ternary.js",
+				"keyword.operator.ternary.ts",
+				"keyword.operator.type.js",
+				"keyword.operator.type.ts",
+				"keyword.operator.type.annotation.js",
+				"keyword.operator.type.annotation.ts",
+				"keyword.operator.type.asserts.js",
+				"keyword.operator.type.asserts.ts",
+				"keyword.operator.type.modifier.js",
+				"keyword.operator.type.modifier.ts",
+				"meta.brace.angle.ts", // only TS
+				"meta.brace.round.js",
+				"meta.brace.round.ts",
+				"meta.brace.square.js",
+				"meta.brace.square.ts",
+				"meta.tag.without-attributes.js", // JSX
+				"punctuation.accessor.js",
+				"punctuation.accessor.ts",
+				"punctuation.accessor.optional.js",
+				"punctuation.accessor.optional.ts",
+				"punctuation.definition.binding-pattern.array.js",
+				"punctuation.definition.binding-pattern.array.ts",
+				"punctuation.definition.binding-pattern.object.js",
+				"punctuation.definition.binding-pattern.object.ts",
+				"punctuation.definition.block.js",
+				"punctuation.definition.block.ts",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.begin.ts",
+				"punctuation.definition.parameters.end.js",
+				"punctuation.definition.parameters.end.ts",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.end.js",
+				"punctuation.definition.template-expression.end.ts",
+				"punctuation.definition.typeparameters.begin.js",
+				"punctuation.definition.typeparameters.begin.ts",
+				"punctuation.definition.typeparameters.end.js",
+				"punctuation.definition.typeparameters.end.ts",
+				"punctuation.destructuring.js",
+				"punctuation.destructuring.ts",
+				"punctuation.section.embedded.begin.js", // JSX
+				"punctuation.section.embedded.end.js", // JSX
+				"punctuation.separator.label.js",
+				"punctuation.separator.label.ts",
+				"support.class.js",
+				"support.class.ts",
+				"support.class.error.js",
+				"support.class.error.ts",
+				"support.class.promise.js",
+				"support.class.promise.ts",
+				"support.function.js",
+				"support.function.ts",
+				"storage.type.function.arrow.js",
+				"storage.type.function.arrow.ts",
+				"support.type.object.module.js",
+				"support.type.object.module.ts",
+				"variable.language.arguments.js",
+				"variable.language.arguments.ts",
+				"meta.block.js variable.other.constant.js",
+				"meta.block.js variable.other.constant.ts",
+				"variable.other.constant.object.js",
+				"variable.other.constant.object.ts",
+				"variable.other.constant.object.property.js",
+				"variable.other.constant.object.property.ts",
+				"variable.other.object.js",
+				"variable.other.object.ts",
+				"meta.block.js variable.other.readwrite.js",
+				"meta.block.js variable.other.readwrite.ts",
+				"variable.other.readwrite.js",
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.alias.js",
+				"variable.other.readwrite.alias.ts",
+				"variable.parameter.js",
+				"variable.parameter.ts",
+				// JSON
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json",
+				// RegExp
+				"constant.other.character-class.regexp",
+				// XML
+				"constant.character.parameter-entity.xml",
+				"keyword.other.entity.xml",
+				"keyword.other.entitytype.xml",
+				"meta.internalsubset.xml",
+				"meta.internalsubset.xml constant.character.entity.xml",
+				"meta.internalsubset.xml meta.tag.sgml.doctype.xml",
+				"meta.internalsubset.xml punctuation.definition.constant.xml",
+				"meta.internalsubset.xml punctuation.definition.string.begin.xml",
+				"meta.internalsubset.xml punctuation.definition.string.end.xml",
+				"meta.internalsubset.xml punctuation.definition.tag.xml",
+				"meta.internalsubset.xml string.quoted.double.xml",
+				"meta.internalsubset.xml variable.language.entity.xml",
+				"punctuation.definition.constant.xml",
+				"punctuation.definition.entity.xml",
+				"string.unquoted.cdata.xml",
+				"text.xml",
+				// YAML
+				"constant.language.boolean.yaml",
+				"constant.language.null.yaml",
+				"constant.numeric.float.yaml",
+				"constant.numeric.indentation-indicator.yaml",
+				"constant.numeric.integer.yaml",
+				"constant.numeric.yaml-version.yaml",
+				"constant.other.timestamp.yaml",
+				"entity.other.document.begin.yaml",
+				"entity.other.document.end.yaml",
+				"keyword.control.flow.alias.yaml",
+				"keyword.control.flow.block-scalar.folded.yaml",
+				"keyword.control.flow.block-scalar.literal.yaml",
+				"keyword.control.property.anchor.yaml",
+				"keyword.other.directive.yaml.yaml",
+				"punctuation.definition.alias.yaml",
+				"punctuation.definition.anchor.yaml",
+				"punctuation.definition.block.sequence.item.yaml",
+				"punctuation.definition.directive.begin.yaml",
+				"punctuation.definition.mapping.begin.yaml",
+				"punctuation.definition.mapping.end.yaml",
+				"punctuation.definition.sequence.begin.yaml",
+				"punctuation.definition.sequence.end.yaml",
+				"punctuation.separator.key-value.mapping.yaml",
+				"punctuation.separator.mapping.yaml",
+				"punctuation.separator.sequence.yaml",
+				"storage.modifier.chomping-indicator.yaml",
+				"string.unquoted.block.yaml",
+				"string.unquoted.directive-name.yaml",
+				"string.unquoted.directive-parameter.yaml",
+				"string.unquoted.plain.in.yaml",
+				"string.unquoted.plain.out.yaml",
+				"support.other.directive.reserved.yaml"
+			],
+			"settings": {
+				"foreground": "#a9b7c6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#CC7832 (orange)",
+			"scope": [
+				// CSS
+				"keyword.control.at-rule.css",
+				"keyword.control.at-rule.charset.css",
+				"keyword.control.at-rule.counter-style.css",
+				"keyword.control.at-rule.document.css",
+				"keyword.control.at-rule.font-face.css",
+				"keyword.control.at-rule.font-feature-values.css",
+				"keyword.control.at-rule.import.css",
+				"keyword.control.at-rule.keyframes.css",
+				"keyword.control.at-rule.media.css",
+				"keyword.control.at-rule.namespace.css",
+				"keyword.control.at-rule.page.css",
+				"keyword.control.at-rule.supports.css",
+				"keyword.control.at-rule.viewport.css",
+				"keyword.other.important.css",
+				"punctuation.definition.keyword.css",
+				"punctuation.separator.list.comma.css",
+				"punctuation.terminator.rule.css",
+				// C#
+				"punctuation.separator.comma.cs",
+				"punctuation.separator.hash.cs",
+				"punctuation.terminator.statement.cs",
+				"keyword.control.case.cs",
+				"keyword.control.conditional.else.cs",
+				"keyword.control.conditional.if.cs",
+				"keyword.control.default.cs",
+				"keyword.control.flow.break.cs",
+				"keyword.control.flow.continue.cs",
+				"keyword.control.flow.return.cs",
+				"keyword.control.flow.throw.cs",
+				"keyword.control.flow.yield.cs",
+				"keyword.control.goto.cs",
+				"keyword.control.loop.do.cs",
+				"keyword.control.loop.for.cs",
+				"keyword.control.loop.foreach.cs",
+				"keyword.control.loop.in.cs",
+				"keyword.control.loop.while.cs",
+				"keyword.control.switch.cs",
+				"keyword.control.try.catch.cs",
+				"keyword.control.try.cs",
+				"keyword.control.try.finally.cs",
+				"keyword.control.try.when.cs",
+				"keyword.other.add.cs",
+				"keyword.other.alias.cs",
+				"keyword.other.as.cs",
+				"keyword.other.attribute-specifier.cs",
+				"keyword.other.await.cs",
+				"keyword.other.base.cs",
+				"keyword.other.checked.cs",
+				"keyword.other.class.cs",
+				"keyword.other.default.cs",
+				"keyword.other.delegate.cs",
+				"keyword.other.enum.cs",
+				"keyword.other.event.cs",
+				"keyword.other.explicit.cs",
+				"keyword.other.extern.cs",
+				"keyword.other.implicit.cs",
+				"keyword.other.interface.cs",
+				"keyword.other.is.cs",
+				"keyword.other.lock.cs",
+				"keyword.other.nameof.cs",
+				"keyword.other.namespace.cs",
+				"keyword.other.new.cs",
+				"keyword.other.operator-decl.cs",
+				"keyword.other.remove.cs",
+				"keyword.other.static.cs",
+				"keyword.other.struct.cs",
+				"keyword.other.this.cs",
+				"keyword.other.typeof.cs",
+				"keyword.other.unchecked.cs",
+				"keyword.other.using.cs",
+				"keyword.other.var.cs",
+				"keyword.other.where.cs",
+				"keyword.query.ascending.cs",
+				"keyword.query.by.cs",
+				"keyword.query.descending.cs",
+				"keyword.query.equals.cs",
+				"keyword.query.from.cs",
+				"keyword.query.group.cs",
+				"keyword.query.in.cs",
+				"keyword.query.into.cs",
+				"keyword.query.join.cs",
+				"keyword.query.let.cs",
+				"keyword.query.on.cs",
+				"keyword.query.orderby.cs",
+				"keyword.query.select.cs",
+				"keyword.query.where.cs",
+				"keyword.type.cs",
+				"storage.modifier.cs",
+				"constant.language.boolean.false.cs",
+				"constant.language.boolean.true.cs",
+				"constant.language.null.cs",
+				"keyword.preprocessor.define.cs",
+				"keyword.preprocessor.elif.cs",
+				"keyword.preprocessor.else.cs",
+				"keyword.preprocessor.endif.cs",
+				"keyword.preprocessor.endregion.cs",
+				"keyword.preprocessor.error.cs",
+				"keyword.preprocessor.if.cs",
+				"keyword.preprocessor.line.cs",
+				"keyword.preprocessor.pragma.cs",
+				"keyword.preprocessor.region.cs",
+				"keyword.preprocessor.undef.cs",
+				"keyword.preprocessor.warning.cs",
+				"constant.character.escape.cs",
+				// JavaScript & TypeScript
+				"case-clause.expr.js",
+				"case-clause.expr.ts",
+				"constant.character.escape.js",
+				"constant.character.escape.ts",
+				"constant.language.boolean.false.js",
+				"constant.language.boolean.false.ts",
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.true.ts",
+				"constant.language.null.js",
+				"constant.language.null.ts",
+				"constant.language.undefined.js",
+				"constant.language.undefined.ts",
+				"keyword.control.js",
+				"keyword.control.ts",
+				"keyword.control.as.js",
+				"keyword.control.as.ts",
+				"keyword.control.conditional.js",
+				"keyword.control.conditional.ts",
+				"keyword.control.default.js",
+				"keyword.control.default.ts",
+				"keyword.control.export.js",
+				"keyword.control.export.ts",
+				"keyword.control.import.js",
+				"keyword.control.import.ts",
+				"keyword.control.intrinsic.js",
+				"keyword.control.intrinsic.ts",
+				"keyword.control.flow.js",
+				"keyword.control.flow.ts",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
+				"keyword.control.loop.js",
+				"keyword.control.loop.ts",
+				"keyword.control.new.js",
+				"keyword.control.new.ts",
+				"keyword.control.require.js",
+				"keyword.control.require.ts",
+				"keyword.control.switch.js",
+				"keyword.control.switch.ts",
+				"keyword.control.trycatch.js",
+				"keyword.control.trycatch.ts",
+				"keyword.control.type.js",
+				"keyword.control.type.ts",
+				"keyword.control.with.js",
+				"keyword.control.with.ts",
+				"keyword.operator.expression.awaited.js",
+				"keyword.operator.expression.awaited.ts",
+				"keyword.operator.expression.delete.js",
+				"keyword.operator.expression.delete.ts",
+				"keyword.operator.expression.import.js",
+				"keyword.operator.expression.import.ts",
+				"keyword.operator.expression.in.js",
+				"keyword.operator.expression.in.ts",
+				"keyword.operator.expression.infer.js",
+				"keyword.operator.expression.infer.ts",
+				"keyword.operator.expression.instanceof.js",
+				"keyword.operator.expression.instanceof.ts",
+				"keyword.operator.expression.is.js",
+				"keyword.operator.expression.is.ts",
+				"keyword.operator.expression.keyof.js",
+				"keyword.operator.expression.keyof.ts",
+				"keyword.operator.expression.of.js",
+				"keyword.operator.expression.of.ts",
+				"keyword.operator.expression.typeof.js",
+				"keyword.operator.expression.typeof.ts",
+				"keyword.operator.expression.void.js",
+				"keyword.operator.expression.void.ts",
+				"keyword.operator.new.js",
+				"keyword.operator.new.ts",
+				"keyword.other.js",
+				"keyword.other.ts",
+				"keyword.other.debugger.js",
+				"keyword.other.debugger.ts",
+				"punctuation.separator.comma.js",
+				"punctuation.separator.comma.ts",
+				"punctuation.separator.parameter.js",
+				"punctuation.separator.parameter.ts",
+				"punctuation.terminator.statement.js",
+				"punctuation.terminator.statement.ts",
+				"storage.modifier.js",
+				"storage.modifier.ts",
+				"storage.modifier.async.js",
+				"storage.modifier.async.ts",
+				"storage.type.js",
+				"storage.type.ts",
+				"support.type.builtin.js",
+				"support.type.builtin.ts",
+				"storage.type.class.js",
+				"storage.type.class.ts",
+				"storage.type.enum.js",
+				"storage.type.enum.ts",
+				"storage.type.function.js",
+				"storage.type.function.ts",
+				"storage.type.interface.js",
+				"storage.type.interface.ts",
+				"storage.type.namespace.js",
+				"storage.type.namespace.ts",
+				"storage.type.property.js",
+				"storage.type.property.ts",
+				"support.type.primitive.js",
+				"support.type.primitive.ts",
+				"storage.type.type.js",
+				"storage.type.type.ts",
+				"variable.language.super.js",
+				"variable.language.super.ts",
+				"variable.language.this.js",
+				"variable.language.this.ts",
+				// JSON
+				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.separator.dictionary.pair.json",
+				"punctuation.separator.array.json.comments",
+				"constant.language.json",
+				// YAML
+				"constant.character.escape.yaml",
+				"constant.character.escape.double-quoted.newline.yaml",
+				"constant.character.escape.single-quoted.yaml",
+				"constant.language.merge.yaml",
+				"constant.language.value.yaml",
+				"entity.name.tag.yaml",
+				"keyword.other.directive.tag.yaml",
+				"support.type.tag-prefix.yaml",
+				"storage.type.tag-handle.yaml",
+				// JSON
+				"constant.character.escape.json"
+			],
+			"settings": {
+				"foreground": "#cc7832",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#CC7832 bold",
+			"scope": [
+				// RegExp
+				"constant.character.escape.backslash.regexp",
+				"keyword.control.anchor.regexp",
+				"keyword.operator.or.regexp"
+			],
+			"settings": {
+				"foreground": "#cc7832",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "#FFC66D",
+			"scope": [
+				// C#
+				"keyword.other.get.cs",
+				"keyword.other.set.cs",
+				"entity.name.function.cs",
+				// JavaScript & TypeScript
+				"entity.name.function.js",
+				"entity.name.function.ts",
+				"entity.name.function.tagged-template.js",
+				"entity.name.function.tagged-template.ts",
+				"entity.name.tag.js", // JSX
+				"entity.name.tag.namespace.js", // JSX
+				"punctuation.definition.tag.begin.js", // JSX
+				"punctuation.definition.tag.end.js", // JSX
+				"punctuation.separator.namespace.js", // JSX
+				"support.class.component.js", // JSX
+				"support.function.json.js",
+				"support.function.json.ts",
+				"support.function.math.js",
+				"support.function.math.ts"
+			],
+			"settings": {
+				"foreground": "#ffc66d",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#E8BF6A",
+			"scope": [
+				// CSS
+				"constant.other.unicode-range.css",
+				"entity.name.function.namespace-prefix.css",
+				"entity.name.tag.css",
+				"entity.name.tag.custom.css",
+				"entity.name.tag.wildcard.css",
+				"entity.other.attribute-name.css",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.mixin.css",
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.id.css punctuation.definition.entity.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.other.attribute-name.parent-selector.css",
+				"entity.other.keyframe-offset.css",
+				"entity.other.keyframe-offset.percentage.css",
+				"entity.other.namespace-prefix.css",
+				"keyword.operator.logical.and.media.css",
+				"meta.at-rule.header.css",
+				"meta.property-value.css",
+				"punctuation.separator.dash.unicode-range.css",
+				"storage.modifier.ignore-case.css",
+				"string.unquoted.attribute-value.css",
+				"support.constant.color.current.css",
+				"support.constant.font-name.css",
+				"support.constant.language-range.css",
+				"support.function.calc.css",
+				"support.function.document-rule.css",
+				"support.function.gradient.css",
+				"support.function.misc.css",
+				"support.function.shape.css",
+				"support.function.timing-function.css",
+				"support.function.transform.css",
+				"support.function.url.css",
+				"variable.argument.css",
+				"variable.parameter.document-rule.css",
+				"variable.parameter.font-name.css",
+				"variable.parameter.keyframe-list.css",
+				"variable.parameter.misc.css",
+				"variable.parameter.style-name.css",
+				// HTML
+				"entity.name.tag.html",
+				"entity.name.tag.block.any.html",
+				"entity.name.tag.inline.any.html",
+				"entity.name.tag.other.html",
+				"entity.name.tag.script.html",
+				"entity.name.tag.style.html",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				// RegExp
+				"punctuation.definition.group.regexp",
+				// Tailwind
+				"support.function.config.tailwind",
+				// XML
+				"entity.name.tag.localname.xml",
+				"keyword.other.doctype.xml",
+				"punctuation.definition.tag.xml",
+				// YAML
+				"entity.name.type.anchor.yaml",
+				"variable.other.alias.yaml"
+			],
+			"settings": {
+				"foreground": "#e8bf6a",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#BBB529",
+			"scope": [
+				// JavaScript & TypeScript
+				"punctuation.decorator.js",
+				"punctuation.decorator.ts",
+				"meta.decorator.js entity.name.function.js",
+				"meta.decorator.ts entity.name.function.ts"
+			],
+			"settings": {
+				"foreground": "#bbb529",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#A5C261",
+			"scope": [
+				// ASP.NET Core Razor
+				// CSS
+				"keyword.other.unit.deg.css",
+				"keyword.other.unit.em.css",
+				"keyword.other.unit.px.css",
+				"keyword.other.unit.rem.css",
+				"support.constant.color.w3c-standard-color-name.css",
+				"support.constant.color.w3c-extended-color-name.css",
+				"support.constant.media.css",
+				"support.constant.parity.css",
+				"support.constant.property-value.css",
+				"support.constant.property-value.list-style-type.css",
+				"support.constant.step-direction.css",
+				"support.constant.text-direction.css",
+				"support.constant.vendored.property-value.css",
+				// HTML
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html",
+				"punctuation.separator.key-value.html",
+				"string.quoted.double.html",
+				"string.quoted.single.html",
+				"string.unquoted.html"
+			],
+			"settings": {
+				"foreground": "#a5c261",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#629755 italic",
+			"scope": [
+				// C#
+				"comment.block.documentation.cs",
+				"constant.character.entity.cs",
+				"punctuation.separator.equals.cs",
+				"string.unquoted.cdata.cs",
+				// JavaScript & TypeScript
+				"comment.block.documentation.js",
+				"comment.block.documentation.ts",
+				"source.embedded.js",
+				"source.embedded.ts",
+				// JSDoc
+				"constant.language.access-type.jsdoc",
+				"constant.language.symbol-type.jsdoc",
+				"constant.other.description.jsdoc",
+				"constant.other.email.link.underline.jsdoc",
+				"entity.name.tag.inline.jsdoc",
+				"entity.name.type.instance.jsdoc",
+				"invalid.illegal.syntax.jsdoc",
+				"keyword.operator.assignment.jsdoc",
+				"keyword.operator.control.jsdoc",
+				"meta.example.jsdoc",
+				"punctuation.definition.bracket.angle.begin.jsdoc",
+				"punctuation.definition.bracket.angle.end.jsdoc",
+				"punctuation.definition.bracket.curly.begin.jsdoc",
+				"punctuation.definition.bracket.curly.end.jsdoc",
+				"punctuation.definition.bracket.square.begin.jsdoc",
+				"punctuation.definition.bracket.square.end.jsdoc",
+				"punctuation.definition.inline.tag.jsdoc",
+				"punctuation.definition.optional-value.begin.bracket.square.jsdoc",
+				"punctuation.definition.optional-value.end.bracket.square.jsdoc",
+				"punctuation.definition.string.begin.jsdoc",
+				"punctuation.definition.string.end.jsdoc",
+				"punctuation.separator.pipe.jsdoc",
+				"variable.other.description.jsdoc",
+				"variable.other.jsdoc",
+				"variable.other.link.underline.jsdoc",
+				// YAML
+				"comment.line.number-sign.yaml",
+				"punctuation.definition.comment.yaml"
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "#629755 bold italic",
+			"scope": [
+				// C#
+				"entity.other.attribute-name.cs",
+				"entity.other.attribute-name.localname.cs",
+				"entity.other.attribute-name.namespace.cs",
+				// JSDoc
+				"punctuation.definition.block.tag.jsdoc",
+				"storage.type.class.jsdoc"
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
+			"name": "#6A8759 (string green)",
+			"scope": [
+				// CSS
+				"constant.character.escape.codepoint.css",
+				"constant.character.escape.css",
+				"constant.character.escape.newline.css",
+				"punctuation.definition.string.begin.css",
+				"punctuation.definition.string.end.css",
+				"string.quoted.double.css",
+				"string.quoted.single.css",
+				// C#
+				"string.quoted.double.cs",
+				"string.quoted.single.cs",
+				"punctuation.definition.char.begin.cs",
+				"punctuation.definition.char.end.cs",
+				"punctuation.definition.string.begin.cs",
+				"punctuation.definition.string.end.cs",
+				// JavaScript & TypeScript
+				"meta.tag.attributes.js keyword.operator.assignment.js",
+				"string.quoted.double.js",
+				"string.quoted.double.ts",
+				"string.quoted.single.js",
+				"string.quoted.single.ts",
+				"string.regexp.js",
+				"string.regexp.ts",
+				"string.template.js",
+				"string.template.ts",
+				"punctuation.definition.string.begin.js",
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.js",
+				"punctuation.definition.string.end.ts",
+				"punctuation.definition.string.template.begin.js",
+				"punctuation.definition.string.template.begin.ts",
+				"punctuation.definition.string.template.end.js",
+				"punctuation.definition.string.template.end.ts",
+				// JSON
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json",
+				"string.quoted.double.json",
+				// Markdown
+				"punctuation.definition.quote.begin.markdown",
+				// XML
+				"meta.tag.xml",
+				"meta.tag.preprocessor.xml",
+				"punctuation.definition.string.begin.xml",
+				"punctuation.definition.string.end.xml",
+				"punctuation.definition.string.begin.yaml",
+				"punctuation.definition.string.end.yaml",
+				"string.quoted.double.xml",
+				"string.quoted.single.xml",
+				// YAML
+				"string.quoted.double.yaml",
+				"string.quoted.single.yaml"
+			],
+			"settings": {
+				"foreground": "#6a8759",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#77B767 italic",
+			"scope": [
+				// C#
+				"entity.name.tag.cs",
+				"entity.name.tag.localname.cs",
+				"entity.name.tag.cs",
+				"punctuation.definition.tag.cs"
+			],
+			"settings": {
+				"foreground": "#77b767",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "#9876AA",
+			"scope": [
+				// C#
+				"variable.other.alias.cs",
+				"variable.other.object.property.cs",
+				"variable.other.readwrite.cs",
+				"entity.name.variable.field.cs",
+				"entity.name.variable.property.cs",
+				"entity.name.variable.tuple-element.cs",
+				"entity.name.variable.event.cs",
+				// JavaScript & TypeScript
+				"entity.name.label.js",
+				"entity.name.label.ts",
+				"entity.other.attribute-name.namespace.js", // JSX
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.ts",
+				"support.constant.property.math.js",
+				"support.constant.property.math.ts",
+				"support.variable.property.js",
+				"support.variable.property.ts",
+				"support.variable.property.importmeta.js",
+				"support.variable.property.importmeta.ts",
+				"support.variable.property.target.js",
+				"support.variable.property.target.ts",
+				"variable.object.property.js",
+				"variable.object.property.ts",
+				"variable.other.constant.property.js",
+				"variable.other.constant.property.ts",
+				"variable.other.property.js",
+				"variable.other.property.ts",
+				"variable.other.object.property.js",
+				"variable.other.object.property.ts",
+				// JSON
+				"support.type.property-name.json",
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json",
+				// XML
+				"entity.name.tag.namespace.xml",
+				"entity.other.attribute-name.namespace.xml"
+			],
+			"settings": {
+				"foreground": "#9876aa",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#9876AA italic",
+			"scope": [
+				// C#
+				"entity.name.variable.enum-member.cs",
+				// JavaScript & TypeScript
+				"variable.other.enummember.js",
+				"variable.other.enummember.ts"
+			],
+			"settings": {
+				"foreground": "#9876aa",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "#9876AA bold",
+			"scope": [
+				"markup.heading"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#9876aa"
+			}
+		},
+		{
+			"name": "#9876AA bold italic",
+			"scope": [
+				// JavaScript & TypeScript
+				"constant.language.infinity.js",
+				"constant.language.infinity.ts",
+				"constant.language.nan.js",
+				"constant.language.nan.ts",
+				"support.class.builtin.js",
+				"support.class.builtin.ts",
+				"support.constant.json.js",
+				"support.constant.json.ts",
+				"support.constant.math.js",
+				"support.constant.math.ts",
+				"variable.other.constant.js",
+				"variable.other.constant.ts"
+			],
+			"settings": {
+				"foreground": "#9876aa",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "#287BDE",
+			"scope": [
+				"variable.parameter.url.css"
+			],
+			"settings": {
+				"foreground": "#287bde",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#6897BB",
+			"scope": [
+				// CSS
+				"constant.other.color.rgb-value.hex.css",
+				"constant.numeric.css",
+				"punctuation.definition.constant.css",
+				// C#
+				"constant.numeric.binary.cs",
+				"constant.numeric.decimal.cs",
+				"constant.numeric.hex.cs",
+				// JavaScript & TypeScript
+				"constant.numeric.binary.js",
+				"constant.numeric.binary.ts",
+				"constant.numeric.decimal.js",
+				"constant.numeric.decimal.ts",
+				"constant.numeric.hex.js",
+				"constant.numeric.hex.ts",
+				"constant.numeric.octal.js",
+				"constant.numeric.octal.ts",
+				"storage.type.numeric.bigint.js",
+				"storage.type.numeric.bigint.ts",
+				"string.regexp.js punctuation.definition.string.begin.js",
+				"string.regexp.ts punctuation.definition.string.begin.ts",
+				// JSON
+				"constant.numeric.json",
+				// RegExp
+				"keyword.operator.quantifier.regexp"
+			],
+			"settings": {
+				"foreground": "#6897bb",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#6D9CBE",
+			"scope": [
+				// HTML
+				"text.html.derivative constant.character.entity.named",
+				"constant.character.entity.numeric.decimal.html",
+				"constant.character.entity.numeric.hexadecimal.html",
+				"punctuation.definition.entity.html",
+				// JavaScript & TypeScript
+				"punctuation.definition.entity.js", // JSX
+				"constant.character.entity.js", // JSX
+				// XML
+				"constant.character.entity.xml",
+				"punctuation.definition.constant.xml"
+			],
+			"settings": {
+				"foreground": "#6d9cbe",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "#507874",
+			"scope": [
+				// JavaScript & TypeScript
+				"meta.type.parameters.ts entity.name.type.ts"
+			],
+			"settings": {
+				"foreground": "#507874",
+				"fontStyle": ""
+			}
+		},
+	]
+}
